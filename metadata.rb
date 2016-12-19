@@ -6,7 +6,7 @@ description      "Installs/Configures Sensu"
 long_description ''
 version          "3.1.2"
 
-depends "apt", ">= 2.0"
-depends "rabbitmq", ">= 2.0.0"
+#depends "apt", ">= 2.0"
+#depends "rabbitmq", ">= 2.0.0"
 
 supports 'ubuntu'
