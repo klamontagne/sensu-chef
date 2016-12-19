@@ -17,12 +17,7 @@
 # limitations under the License.
 #
 
-service_actions = case node['platform_family']
-when 'aix'
-  [:start]
-else
-  [:enable, :start]
-end
+service_actions = [:enable, :start]
 
 
 sensu_service "sensu-client" do
